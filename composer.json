@@ -1,7 +1,7 @@
 {
   "name": "ekapusta/oauth2-esia",
   "type": "library",
-  "description": "Allows to authenticate in ESIA and get authenticated individual personal information.",
+  "description": "Allows to authenticate in ESIA and get authenticated individual personal information. Forked from ekapusta/oauth2-esia",
   "keywords": [
     "oauth2",
     "oauth2-provider",
@@ -16,8 +16,8 @@
     }
   ],
   "require": {
-    "php": "^5.6 || ^7.0",
-    "lcobucci/jwt": "^3.2.2",
+    "php": "^5.6 || ^7.0 || ^8.0",
+    "lcobucci/jwt": "^3.2.2 || ^4.1",
     "league/oauth2-client": "^2.4.1",
     "psr/log": "^1.0",
     "ramsey/uuid": "^3.0 || ^4.0"
